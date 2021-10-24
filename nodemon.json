@@ -1,0 +1,9 @@
+{
+  "env": {
+    "MONGODB_USER": "estebandlp",
+    "MONGODB_PASSWORD": "6DbMV0FNxfu2ZboI",
+    "MONGO_DEFAULT_DATABASE": "shop?retryWrites=true&w=majority",
+    "STRIPE_KEY": "sk_test_51JRjf2ANJC046JQDCw0ec6GWKAmsYFRvOrCs7gSSJJTVZBZgvZDMgy2IDFSu10JKkBSNwyjFvIjfAbu9SgCyJONE00rEqyKZKy",
+    "PORT": "3000"
+  }
+}

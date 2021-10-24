@@ -1,0 +1,47 @@
+{
+  "name": "nodejs-complete-guide",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "app.js",
+  "engines": {
+    "node": "12.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production MONGODB_USER=estebandlp MONGODB_PASSWORD=6DbMV0FNxfu2ZboI MONGO_DEFAULT_DATABASE=shop STRIPE_KEY=sk_test_51JRjf2ANJC046JQDCw0ec6GWKAmsYFRvOrCs7gSSJJTVZBZgvZDMgy2IDFSu10JKkBSNwyjFvIjfAbu9SgCyJONE00rEqyKZKy PORT=3000 nodemon app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Maximilian Schwarzmüller",
+  "student": "Esteban de la Peña",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.0.0",
+    "csurf": "^1.11.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.1",
+    "helmet": "^4.6.0",
+    "mongodb": "^4.0.1",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "mysql2": "^1.6.1",
+    "nodemailer": "^6.6.3",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.12.3",
+    "prettier": "^2.3.2",
+    "pug": "^3.0.2",
+    "sequelize": "^5.0.0-beta.11",
+    "stripe": "^8.170.0"
+  }
+}
